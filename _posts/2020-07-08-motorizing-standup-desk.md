@@ -13,7 +13,7 @@ tags:
   - Automation
 ---
 
-I recently purchased an `IKEA SKARTSA` Standup Desk, it has a nice manual crank that you can turn to raise it and lower it.
+I recently purchased an `IKEA SKARTSA` Standup Desk, it has a nice manual crank that you can turn to raise it and lower it. test
 
 <!-- ```ruby
 def print_hi(name)
