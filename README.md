@@ -1,3 +1,3 @@
 # The Cesar Moya Blog
 
-The Cesar Moya Blog Website source code
+The Cesar Moya Blog Website source code lives here.
