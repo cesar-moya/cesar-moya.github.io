@@ -50,6 +50,12 @@ Pro Setup (optional) - **Move this to a separate post**
 ![motor-with-allen](/assets/images/motorizing-standup-desk/motor-with-allen.jpg)
 
 
+Refs
+
+https://www.arduino.cc/en/Tutorial/ArduinoToBreadboard
+https://www.electronics-lab.com/project/programming-atmega328p-microcontroller-with-arduino-ide/
+https://www.youtube.com/watch?v=Sww1mek5rHU
+
 
 <!-- <a href="/assets/images/circuit-diagram.png">
   <img src="/assets/images/circuit-diagram.png" alt="Circuit Diagram">

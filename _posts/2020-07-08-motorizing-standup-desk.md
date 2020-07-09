@@ -122,4 +122,21 @@ Anyway, what I did was to drill some holes into the plastic container (you can a
 
 **picture here upcoming**
 
-And you're all set, what did you think of this approach? If you made it please let me know in the comments and share some pictures!
+And you're all set, what did you think of this approach? If you made it please let me know in twitter and share some pictures!
+
+### References
+
+- [Arduino DC Motor Control Tutorial](https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/){:target="_blank"}
+- [Torque Calculations](https://www.precisionmicrodrives.com/content/torque-calculations-for-gearmotor-applications/){:target="_blank"}
+- [](){:target="_blank"}
+- [](){:target="_blank"}
+- [](){:target="_blank"}
+
+Other Inspiration:
+- [Ikea Desk Hack using a Drill](https://hackcorrelation.blogspot.com/2015/09/ikea-skarsta-sitstanding-desk-hack.html){:target="_blank"}
+- [](){:target="_blank"}
+- [](){:target="_blank"}
+- [](){:target="_blank"}
+
+
+
