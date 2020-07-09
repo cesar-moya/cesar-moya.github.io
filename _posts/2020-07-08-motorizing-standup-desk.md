@@ -47,7 +47,6 @@ Stuff you may already have:
 - [6mm Allen Wrench - Optional](https://www.amazon.com/dp/B0006HB20Y/ref=cm_sw_em_r_mt_dp_U_0AObFb1Y2MJH0){:target="_blank"} - $3, *(if you don't want to cut the crank bar)*
 - [On/Off Switch - Optional](https://www.amazon.com/dp/B071Y7SMVQ/ref=cm_sw_em_r_mt_dp_U_jEObFbB8SQWXJ){:target="_blank"} - $1
 - Any plastic container (like a tupperware food container), about 6" x 5" x 3" (or close), or some wooden box
-- [](){:target="_blank"}
 
 Pro Setup (optional) - **Move this to a separate post**
 - [Soldering Kit](https://www.amazon.com/dp/B07GTGGLXN/ref=cm_sw_em_r_mt_dp_U_TRObFb0JFGGWQ){:target="_blank"} - $18
@@ -56,7 +55,6 @@ Pro Setup (optional) - **Move this to a separate post**
 - [16Mhz Crystal Oscillator](https://www.amazon.com/dp/B0816FWKNT/ref=cm_sw_em_r_mt_dp_U_JTObFbTGDA42T){:target="_blank"} - $1
 - [FTDI USB to TTL Serial Adapter](https://www.amazon.com/dp/B07XF2SLQ1/ref=cm_sw_em_r_mt_dp_U_LTObFbB347AW2){:target="_blank"} - $3
 - [22pf Capacitor](https://www.amazon.com/dp/B083WQNRDK/ref=cm_sw_em_r_mt_dp_U_PTObFbG2Z1XT1){:target="_blank"} - $1
-- [](){:target="_blank"}
 
 ### STEP 1: Load the program!
 
