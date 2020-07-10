@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Cesar Moya"
   avatar : "/assets/images/profile-1.jpeg"
-  bio    : "Software Developer, Technologist, Photographer, Gamer, Musician..."
+  bio    : "Software Developer, Technologist, Photographer, Gamer & Musician!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
