@@ -25,10 +25,7 @@ search: true
 
 # Build settings
 markdown: kramdown
-
-#Theme settings
-theme: minimal-mistakes-jekyll
-
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -57,6 +54,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 author:
   name   : "Cesar Moya"
