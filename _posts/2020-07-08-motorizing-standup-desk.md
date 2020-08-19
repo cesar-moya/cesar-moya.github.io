@@ -65,6 +65,8 @@ The Arduino program is the software that waits for a button to be pushed, when i
 - Compile and Load the code onto the Arduino using the IDE respective buttons
 - Unplug the Arduino
 
+*Note on usage: Please read the comments on the 'MotorControl.ino' file for detailed explanation about engaging program mode and auto-raise/auto-lower if you plan on using that feature*
+
 ## STEP 2: Adjust the voltage input for Arduino
 We need to adjust the output voltage from the buck converter, Arduino can handle up to 12 volts, if you feed it 29 volts I suspect you may fry it. 
 To do this, simply plug in the power (using the `Barrel Jack to Cable adapter` with 2 cables) to `Vin`, look at the display on the buck converter and use the little golden screw to adjust the voltage until it reads **5v**. 
@@ -80,7 +82,7 @@ Grab your breadboard, Arduino, L298N, LM2596, Motors, two buttons, the resistors
 At this point it should be safe to plug in the 29v power adapter onto the circuit (make sure you followed STEP 2 before doing this). The circuits should turn on and if you press the buttons the motor should turn.
 You may be wondering why I chose a 29v power pupply, as it turns out the L298N drops around 5 volts in this particular setup, and I want the full 24 volts to reach the motor. 
 
-Note: I took the following picture and video a bit later in the process, but I *highly* recommend that you test the circuit with the motors **before** installing them onto the desk. To perform the dry test, simply connect everything and give it a shot!
+Note: I took the following picture and video a bit later in the process, but I *highly* recommend that you test the circuit with the motors **before** installing them onto the desk. To perform the dry test, simply connect everything and give it a shot!. *P.S. Check out that automated raise! ;)*
 
 ![drytest-setup](/assets/images/motorizing-standup-desk/drytest-setup.jpg)
 
@@ -127,7 +129,7 @@ Almost there!, simply install the buttons onto the enclosure, pass the motor wir
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HMcWuTiHAU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+<br/>
 
 That's it!, what did you think of this approach?, let me know in the comments, please share with me if you made it, and if you have any questions feel free to ask.
 
