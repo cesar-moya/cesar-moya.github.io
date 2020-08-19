@@ -2,7 +2,6 @@
 title: "How I motorized my Ikea SKARSTA standup desk with an Arduino UNO"
 date: 2020-07-08T00:00:00-00:00
 last_modified_at: 2020-07-10T00:00:00-06:00
-comments: true
 categories:
   - blog
 tags:
@@ -141,28 +140,3 @@ That's it!, what did you think of this approach?, let me know in the comments, p
 Similar Projects:
 - [Ikea Desk Hack using a Drill](https://hackcorrelation.blogspot.com/2015/09/ikea-skarsta-sitstanding-desk-hack.html){:target="_blank"}
 - [Motorized Desk](http://scott-stack.com/projects/desk.html){:target="_blank"}
-
-
-{% if page.comments %}
-### Comments
-
-<div id="disqus_thread"></div>
-<script>
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://cesarmoya.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
