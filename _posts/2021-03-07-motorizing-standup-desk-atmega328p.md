@@ -74,7 +74,7 @@ This is a pre-requisite to be able to later install the program onto the ATMEGA 
 
 - I used Windows, download the drivers from [https://ftdichip.com/drivers/vcp-drivers/](https://ftdichip.com/drivers/vcp-drivers/){:target="_blank"}, grab the SETUP one (CDM21228_Setup.zip).
 - Connect the adapter FT232RL (alone, this is, without being connected to ATMEGA yet) using a mini-USB to USB cable to the PC and then run the setup, next->next->next etc., but they do have a detailed installation guide if you need it, and you should probably read the highlights: [FTDI installation guide pdf](https://www.ftdichip.com/Support/Documents/InstallGuides/AN_396%20FTDI%20Drivers%20Installation%20Guide%20for%20Windows%2010.pdf){:target="_blank"}
-- Go to your Device Manager in Windows, and make sure it recognizes it as a USB Serial Port: ![win-dev-manager-ftdi-recognized](/assets/images/motorizing-standup-desk-pro/win-dev-manager-ftdi-recognized.png){:class="img-responsive"}
+- Go to your Device Manager in Windows, and make sure it recognizes it as a USB Serial Port: ![win-dev-manager-ftdi-recognized](/assets/images/motorizing-standup-desk-atmega328p/win-dev-manager-ftdi-recognized.png){:class="img-responsive"}
 - Take note of the COM port number it assigned, you will use it on Step 3-b.
 
 
@@ -92,14 +92,14 @@ Extra Components:
 - Two 22pf capacitors.
 
 Wire it up like this (again shout out to dronebotworkshop.com for the pics):
-![atmega328-wiring-stand-alone](/assets/images/motorizing-standup-desk-pro/atmega328-wiring-stand-alone.jpeg){:class="img-responsive"}
+![atmega328-wiring-stand-alone](/assets/images/motorizing-standup-desk-atmega328p/atmega328-wiring-stand-alone.jpeg){:class="img-responsive"}
 
 Then IN ADDITION of the previous wiring, connect the FT232RL adapter as follows:
-![atmega328-wiring-use-ftdi.jpeg](/assets/images/motorizing-standup-desk-pro/atmega328-wiring-use-ftdi.jpeg){:class="img-responsive"}
+![atmega328-wiring-use-ftdi.jpeg](/assets/images/motorizing-standup-desk-atmega328p/atmega328-wiring-use-ftdi.jpeg){:class="img-responsive"}
 
 It should look like this:
-![program-load-1](/assets/images/motorizing-standup-desk-pro/program-load-1.jpg){:class="img-responsive"}
-![program-load-2](/assets/images/motorizing-standup-desk-pro/program-load-2.jpg){:class="img-responsive"}
+![program-load-1](/assets/images/motorizing-standup-desk-atmega328p/program-load-1.jpg){:class="img-responsive"}
+![program-load-2](/assets/images/motorizing-standup-desk-atmega328p/program-load-2.jpg){:class="img-responsive"}
 
 Now this is ready to load the program onto it. You *could* choose to go to Step 3-b directly if you want to skip the Arduino test, but you will likely need a few iterations to adjust your PWM values to fit your requirements so I strongly recommend you first do Step 3-a, then wire it all up and test it, and only AFTER you've confirmed all works go to Step 3-b for final program load.
 Don't worry, you can load the program onto the ATMEGA328P as many times as you need, it's just a bit more of a hassle because you have to physically remove the micro from one board to the other, hence, using Arduino first is much faster for testing.
@@ -127,7 +127,7 @@ If you're ready for this, grab your secondary board with the ATMEGA fully and pr
 - Ensure that the Tools -> Port is (whatever COM# it assigned on Step 1)
 
 Should look something like this:
-![arduino-ide-atmega-setup](/assets/images/motorizing-standup-desk-pro/arduino-ide-atmega-setup.png){:class="img-responsive"}
+![arduino-ide-atmega-setup](/assets/images/motorizing-standup-desk-atmega328p/arduino-ide-atmega-setup.png){:class="img-responsive"}
 
 You should be able to compile and upload. The lights on the FTDI will blink very fast while the program is loaded. 
 
@@ -141,22 +141,22 @@ As for the ATMEGA328P wiring, you need to first do the "base wiring" we did on S
 
 The key thing to understand here is that there is a 1 to 1 mapping to every pin from Arduino Uno to the ATMEGA238P, see the following picture:
 
-![atmega328-arduino-pin-equivalents](/assets/images/motorizing-standup-desk-pro/atmega328-arduino-pin-equivalents.jpeg){:class="img-responsive"}
+![atmega328-arduino-pin-equivalents](/assets/images/motorizing-standup-desk-atmega328p/atmega328-arduino-pin-equivalents.jpeg){:class="img-responsive"}
 
 In other words, the text in orange is the Arduino Uno equivalent, for instance: Arduino's Digital PWM pin 6 = ATMEGA's pin 12. You will notice on my code I have the appropriate mapping commented out on the `#define` section. So, all you need to do is, again, use the knowledge from the wiring from my previous post, and simply adapt it so that you use the new pins as defined in the code, plus being careful to supply the ATMEGA from the nice and steady 9V output from the D24V5F9 regulator - of course.
 
 Again - I recommend you wire it up in solderless boards first, then test, then you can solder the final product onto a solderable board:
-![dry-test.jpg](/assets/images/motorizing-standup-desk-pro/dry-test.jpg){:class="img-responsive"}
+![dry-test.jpg](/assets/images/motorizing-standup-desk-atmega328p/dry-test.jpg){:class="img-responsive"}
 
 Final product (soldered) should look like this:
-![all-connected.jpg](/assets/images/motorizing-standup-desk-pro/all-connected.jpg){:class="img-responsive"}
+![all-connected.jpg](/assets/images/motorizing-standup-desk-atmega328p/all-connected.jpg){:class="img-responsive"}
 
 Note: I didn't create a circuit diagram for this yet, I might do it and upload it later, if you feel you absolutely need it before I do, please leave a comment and I'll get back to you.
 
 ## STEP 4: Enclosure
 
 Same steps as on my previous post, but I wanted to show a picture before closing up!
-![slim-fit.jpg](/assets/images/motorizing-standup-desk-pro/slim-fit.jpg){:class="img-responsive"}
+![slim-fit.jpg](/assets/images/motorizing-standup-desk-atmega328p/slim-fit.jpg){:class="img-responsive"}
 
 
 ## Conclusion
