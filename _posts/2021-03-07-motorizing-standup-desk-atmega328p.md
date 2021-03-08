@@ -68,7 +68,7 @@ The process in general is the same as with my original post, with a few differen
 
 I will detail the high level step by step process but focusing only on what's different, again, please read my original post and then simply adapt the different parts as described below. 
 
-## STEP 1 Configure drivers for the FTDI adapter
+## STEP 1: Configure drivers for the FTDI adapter
 
 This is a pre-requisite to be able to later install the program onto the ATMEGA micro.
 
@@ -78,7 +78,7 @@ This is a pre-requisite to be able to later install the program onto the ATMEGA 
 - Take note of the COM port number it assigned, you will use it on Step 3-b.
 
 
-## STEP 2 Special wiring for ATMEGA328P program loading
+## STEP 2: Special wiring for ATMEGA328P program loading
 
 For this step you need to use a separate solderless board with a special wiring to be able to burn the program onto the ATMEGA328P plus a few components, you will use the same source code as above.
 
@@ -116,7 +116,7 @@ I recommend to load the program on the good'old Arduino UNO first, and wire it a
 The pins numbers used are different, but the mapping is in the source code in the form of a comment. e.g. `#define BUTTON_DOWN 2 //ATM-4`, means use the pin 2 on Arduino UNO, but use the pin 4 on ATMega for that function.
 
 
-## Step 3-b Load the program (on ATMEGA328P)
+## Step 3-b: Load the program (on ATMEGA328P)
 
 If you're ready for this, grab your secondary board with the ATMEGA fully and properly wired as explained above, including the FTDI adapter fully wired too, then:
 
@@ -151,9 +151,9 @@ Again - I recommend you wire it up in solderless boards first, then test, then y
 Final product (soldered) should look like this:
 ![all-connected.jpg](/assets/images/motorizing-standup-desk-atmega328p/all-connected.jpg){:class="img-responsive"}
 
-Note: I didn't create a circuit diagram for this yet, I might do it and upload it later, if you feel you absolutely need it before I do, please leave a comment and I'll get back to you.
+Note: I didn't think it was necessary to create another circuit diagram for this, if you absolutely need it let me know in the comments.
 
-## STEP 4: Enclosure
+## STEP 5: Enclosure
 
 Same steps as on my previous post, but I wanted to show a picture before closing up!
 ![slim-fit.jpg](/assets/images/motorizing-standup-desk-atmega328p/slim-fit.jpg){:class="img-responsive"}
@@ -161,6 +161,6 @@ Same steps as on my previous post, but I wanted to show a picture before closing
 
 ## Conclusion
 
-Using an ATMEGA328P and soldering everything is a way more complex project than the previous one, but the satisfaction and end product does feel a lot more solid, smaller and professional. I had a lot of fun doing it and learned a million things, I hope you enjoy it. 
+Using an ATMEGA328P and soldering everything is a way more complex project than the previous one, but the satisfaction and end product does feel a lot more solid, smaller and professional. I had a lot of fun doing it and learned a million things, I hope you enjoy it too. 
 
 As always, feel free to leave any comments below.
