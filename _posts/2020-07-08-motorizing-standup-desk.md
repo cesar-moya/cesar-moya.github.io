@@ -1,7 +1,7 @@
 ---
 title: "How I motorized my Ikea SKARSTA standup desk with an Arduino UNO"
 date: 2020-07-08T00:00:00-00:00
-last_modified_at: 2020-07-10T00:00:00-06:00
+last_modified_at: 2021-03-13T00:00:00-06:00
 categories:
   - blog
 tags:
@@ -131,6 +131,13 @@ Almost there!, simply install the buttons onto the enclosure, pass the motor wir
 <br/>
 
 That's it!, what did you think of this approach?, let me know in the comments, please share with me if you made it, and if you have any questions feel free to ask.
+
+### Quick Update 2021/03/13
+
+Upon needing to do a second desk I decided to improve on the Motor Driver Carrier - and a few other components. I also used Arduino's internal ATMEGA328P processor (so that we can have a smaller form factor, but this is optional), and finishing it up on a solderable board. Check out my latest post [I motorized my Ikea SKARSTA standup desk with an Arduino UNO](http://cesarmoya.com/blog/motorizing-standup-desk-atmega328p/){:target="_blank"}. if you're interested!
+
+Quick Peek:
+![all-connected.jpg](/assets/images/motorizing-standup-desk-atmega328p/all-connected.jpg){:class="img-responsive"}
 
 ### References
 

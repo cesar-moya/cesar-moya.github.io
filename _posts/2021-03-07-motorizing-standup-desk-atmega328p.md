@@ -1,5 +1,5 @@
 ---
-title: "I motorized my Ikea SKARSTA standup desk with ATMEGA328P (Arduino Microcontroller)"
+title: "I motorized my Ikea SKARSTA standup desk with an ATMEGA328P Arduino Microcontroller"
 date: 2021-03-07T00:00:00-00:00
 last_modified_at: 2021-03-07T00:00:00-00:00
 categories:
@@ -19,12 +19,12 @@ tags:
   
 ---
 
-This post is a follow-up from my previous one ["How I motorized my Ikea SKARSTA standup desk with an Arduino UNO"](http://cesarmoya.com/blog/motorizing-standup-desk/){:target="_blank"}, if you haven't read that one, please do so first and then come back.
+This post is a follow-up from my previous one [How I motorized my Ikea SKARSTA standup desk with an Arduino UNO](http://cesarmoya.com/blog/motorizing-standup-desk/){:target="_blank"}, if you haven't read that one, please do so first and then come back.
 
 ## Warning
 
 This setup is *way* more complex than the one on my previous post. If you're looking for a quick and easy-to-follow guide to hack your desk and don't have much time or knowledge of electronics then I strongly recommend you just go with my previous post. 
-This post is for those that want a more "professional" feel, with better and smaller components, but it requires a lot more work.
+This post is for those that want a more *solid* feel, with better and smaller components, but it requires a lot more work.
 
 Note: You can also go with my previous post and only update the Motor Carrier and Voltage regulators to use the ones from this one, it wouldn't change much and you'd save a lot of space. you can also consider using an Arduino Mini instead of an ATMEGA328P.
 
@@ -150,6 +150,9 @@ Again - I recommend you wire it up in solderless boards first, then test, then y
 
 Final product (soldered) should look like this:
 ![all-connected.jpg](/assets/images/motorizing-standup-desk-atmega328p/all-connected.jpg){:class="img-responsive"}
+Look at that solder!
+![look-underside.jpg](/assets/images/motorizing-standup-desk-atmega328p/look-underside.jpg){:class="img-responsive"}
+
 
 Note: I didn't think it was necessary to create another circuit diagram for this, if you absolutely need it let me know in the comments.
 
